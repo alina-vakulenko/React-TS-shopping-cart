@@ -10,7 +10,6 @@ export type UseProductsContextType = {
   products: ProductType[];
 };
 
-// const initialProductsState: ProductType[] = [];
 const initialProductsState: ProductType[] = [
   {
     sku: "item0001",

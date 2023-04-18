@@ -39,7 +39,7 @@ const ACTIONS = {
 export type ReducerActionType = typeof ACTIONS;
 
 export type ReducerAction = {
-  type: keyof ReducerActionType;
+  type: string;
   payload?: CartItemType;
 };
 
